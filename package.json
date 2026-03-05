@@ -38,14 +38,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/react-native-app-usage-stats.git"
+    "url": "https://github.com/akerpic/react-native-app-usage-stats.git"
   },
-  "author": "",
+  "author": "İ. Atacan Kerpiç",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/your-username/react-native-app-usage-stats/issues"
+    "url": "https://github.com/akerpic/react-native-app-usage-stats/issues"
   },
-  "homepage": "https://github.com/your-username/react-native-app-usage-stats#readme",
+  "homepage": "https://github.com/akerpic/react-native-app-usage-stats#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
