@@ -191,33 +191,6 @@ export default function App() {
 }
 ```
 
-## Publishing to NPM
-
-See the release checklist below.
-
-```sh
-# 1. Build the library
-npm run prepare
-
-# 2. Login to npm (if not already)
-npm login
-
-# 3. Publish
-npm publish --access public
-```
-
-## Versioning & Release Checklist
-
-1. Update `version` in `package.json`
-2. Update CHANGELOG (if maintained)
-3. Run `npm run typescript` to verify types
-4. Run `npm run prepare` to build JS output
-5. Test on Android device/emulator with example app
-6. Test iOS build compiles (example app `pod install` + build)
-7. Commit and tag: `git tag v1.0.0`
-8. Push: `git push origin main --tags`
-9. Publish: `npm publish --access public`
-
 ## License
 
 MIT
